@@ -1,4 +1,15 @@
+
+This is an implementation provided by the course staff of MIT 6.888 (Hardware Architecture for Deep Learning - Spring 2019). The repo has some added workloads for experiments we used in our final project.
+
+We noticed some use cases that weren't able to run as stated below:
+1. The simulator for single PE couldn't handle 1x1 kernel for convolution so we had to use 2x2 and scale our results accordingly.
+2. For the 4x4 PE array, the simulator hang after the forth tile.
+3. The output failed to match the expected values when the input/weight values were greater than one and the biases not carefully constructed to keep the outputs small.
+
+# ---- ORIGINAL README -----
+
 # DNN Architecture Evaluation Infrastructure
+
 
 This is a configurable infrastructure that aims to achieve automatic evaluations of tradeoff between different architecure designs, workload, and mappings
 
