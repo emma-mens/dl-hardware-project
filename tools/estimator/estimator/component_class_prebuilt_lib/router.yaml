@@ -1,0 +1,23 @@
+component_class_name: router
+
+attributes:  # default attributes of the tool
+    FIFO_depth: 2
+    FIFO_width: 16
+    arbiterType: snoop
+    nRequesters: 1
+    data_width: 16
+    xbar_input: 1
+    xbar_output: 14
+    
+
+actions:
+    - transfer
+    - repeated_transfer
+    - blocked_transfer
+    - idle
+    
+action_arguments:
+    transfer:
+    - ndests
+    repeated_transfer:
+    - ndests

@@ -1,0 +1,96 @@
+
+# ==================================================
+#	 architecture description 
+# ==================================================
+PE[0][0]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[0][1]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[0][2]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[0][3]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[1][0]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[1][1]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[1][2]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[1][3]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[2][0]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[2][1]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[2][2]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[2][3]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[3][0]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[3][1]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[3][2]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+PE[3][3]:
+  mac:
+    class: mac
+  weight_sp:
+    class: WeightsSP
+ifmapNoC:
+  class: IFMapNoC
+ifmap_glb:
+  class: IFmapGLB
+psumRdNoC:
+  class: PsumRdNoC
+psum_glb:
+  class: PsumGLB
+weightsNoC:
+  class: WeightsNoC
+weights_glb:
+  class: WeightsGLB

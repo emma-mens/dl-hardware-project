@@ -1,0 +1,15 @@
+component_class_name: RF
+
+attributes:
+
+    width:      1
+    data_width: 8
+    depth:      1
+    nports:     2
+    nbanks:     1
+
+
+actions:
+    - read_only
+    - write_only
+    - read_write

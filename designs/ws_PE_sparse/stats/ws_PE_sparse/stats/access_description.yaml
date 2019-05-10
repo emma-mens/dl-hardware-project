@@ -1,0 +1,78 @@
+
+# ==================================================
+#	 access counts 
+# ==================================================
+dut:
+  mac:
+    idle:
+      count: 32774
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 32767
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 128
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 57342
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 1
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 8064
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 127
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 1
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 8065
+    idle:
+      count: 65541

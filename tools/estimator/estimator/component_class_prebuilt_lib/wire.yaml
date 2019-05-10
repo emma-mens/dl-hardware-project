@@ -1,0 +1,9 @@
+component_class_name: wire
+
+attributes:
+    data_width: 16
+    length: 100
+
+actions:
+    - transfer
+    - idle

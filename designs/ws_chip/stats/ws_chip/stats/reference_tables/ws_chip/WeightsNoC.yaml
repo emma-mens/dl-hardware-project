@@ -1,0 +1,16 @@
+attributes:
+  FIFO_depth: 2
+  FIFO_width: 8
+  data_width: 8
+  nRequesters: 1
+  technology: 65nm
+  vendor: '6888'
+  voltage: 1V
+blocked_transfer:
+  numerical_energy: 0
+idle:
+  numerical_energy: 0
+repeated_transfer:
+  numerical_energy: 0
+transfer:
+  numerical_energy: 10

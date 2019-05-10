@@ -1,0 +1,25 @@
+ 
+# component class template for SRAM
+
+component_class_name: SRAM
+
+attributes:
+
+    width:      1
+    data_width: 16
+    depth:      1
+    nports:     2
+    nbanks:     1
+
+
+actions:
+    - read_only
+    - write_only
+    - read_write
+    
+action_arguments:
+    RAM_access:
+    - nread
+    - nwrite
+    - nrepeated_read
+    - nrepeated_data_write

@@ -1,0 +1,8 @@
+component_class_name: comparator
+
+attributes: 
+    data_width: 16
+    
+actions:
+    - compare
+    - idle

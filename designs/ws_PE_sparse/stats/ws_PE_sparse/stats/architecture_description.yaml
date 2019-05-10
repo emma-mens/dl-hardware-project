@@ -1,0 +1,9 @@
+
+# ==================================================
+#	 architecture description 
+# ==================================================
+dut:
+  mac:
+    class: MAC
+  weight_sp:
+    class: WeightsSP

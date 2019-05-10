@@ -1,0 +1,9 @@
+component_class_name: Serializer
+
+attributes:
+    bitwidth: 8
+    pipeline_stage: 1
+
+actions:
+    - serialize
+    - idle

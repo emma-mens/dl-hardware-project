@@ -1,0 +1,13 @@
+# component class template for adder
+
+component_class_name: MAC
+
+attributes:
+    data_width: 8
+    pipeline_stage: 2
+
+actions:
+    - mac_normal
+    - mac_gated
+    - mac_reuse
+    - idle

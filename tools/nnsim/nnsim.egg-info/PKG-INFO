@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: nnsim
+Version: 0.1
+Summary: Neural network dataflow simulator
+Home-page: https://github.mit.edu/chiraag/nn-simulator
+Author: Chiraag Juvekar
+Author-email: nelliewu@mit.edu
+License: MIT
+Description: UNKNOWN
+Keywords: neural-networks hardware
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)

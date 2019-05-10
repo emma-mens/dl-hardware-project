@@ -1,0 +1,20 @@
+# template lib includes all the component class template names that are available to the enery estimator
+
+
+? multiplier
+? channel
+? adder
+? register
+? MAC
+? SRAM
+? AddressGenerator
+? RF
+? conflict_check
+? Deserializer
+? Serializer
+? counter
+? comparator
+? router
+? wire
+# you can add more in addition to the provided template classes
+# AN EXTERNAL ENERGY CALCULATION ENGINE WIHT THE SAME NAME MUST BE PROVIDED 

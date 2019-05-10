@@ -1,0 +1,8 @@
+IFMapNoC: !include IFMapNoC.yaml
+IFmapGLB: !include IFmapGLB.yaml
+PsumGLB: !include PsumGLB.yaml
+PsumRdNoC: !include PsumRdNoC.yaml
+WeightsGLB: !include WeightsGLB.yaml
+WeightsNoC: !include WeightsNoC.yaml
+WeightsSP: !include WeightsSP.yaml
+mac: !include mac.yaml

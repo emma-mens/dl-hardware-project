@@ -1,0 +1,22 @@
+#batch_size    N
+#nfilters      M
+#nchannels     C
+#ifmap_height  H
+#ifmap_width   W
+#filter_height R
+#filter_width  S
+#ofmap_height  E
+#ofmap_width   F
+#stride        U
+
+
+N: 1
+M: 16
+C: 1
+H: 8
+W: 8
+R: 3
+S: 3
+E: 6
+F: 6
+U: 1

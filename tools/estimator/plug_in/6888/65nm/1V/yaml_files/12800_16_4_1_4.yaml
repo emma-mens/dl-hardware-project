@@ -1,0 +1,42 @@
+# the data record for filter sp
+# format
+# [nread, nwrite, nrepeated_read] : energy
+
+RAM_access:
+ ? !!python/tuple [  1,       0,      0] # read_only
+ : 25.62
+ ? !!python/tuple [  0,       1,      0] # write_only
+ : 38
+ ? !!python/tuple [  1,       1,      0] # read_write
+ : 63.36
+ ? !!python/tuple [  2,      0 ,      0] # 2read
+ : 52
+ 
+ ? !!python/tuple [  0,      2 ,      0] # 2write
+ : 77
+ 
+ ? !!python/tuple [  1,      2 ,      0] # read_2write
+ : 104
+ 
+ ? !!python/tuple [  2,      2 ,      0] # 2read_2write
+ : 127
+ 
+ ? !!python/tuple [  2,      1 ,      0] # 2read_write
+ : 90
+ 
+ 
+ 
+ # ? !!python/tuple [  1,       0,      1] # read_read_repeat => does not exist
+# : 0
+# ? !!python/tuple [  0,       1,      1] # read_repeat_write
+# : 
+#  ? !!python/tuple [  1,       1,      1] # read_read_repeat_write ==> does not exist
+# : 0
+ 
+idle:
+ 0.16
+
+
+
+
+

@@ -1,0 +1,15 @@
+attributes:
+  data_width: 16
+  out_data_width: 8
+  pipeline_stage: 1
+  technology: 65nm
+  vendor: '6888'
+  voltage: 1V
+idle:
+  numerical_energy: 0
+mac_gated:
+  numerical_energy: 0
+mac_normal:
+  numerical_energy: 5
+mac_reuse:
+  numerical_energy: 5

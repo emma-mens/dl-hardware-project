@@ -1,0 +1,14 @@
+# component class template for a multiplier
+
+
+component_class_name: multiplier
+
+attributes:
+    bitwidth: 8
+    pipeline_stage: 1
+
+actions:
+    - multiply_normal
+    - multiply_reused
+    - multiply_gated
+

@@ -1,0 +1,4 @@
+# technology dependent parameters used across the design
+vendor:               "6888"
+technology:           65nm
+voltage:              1V

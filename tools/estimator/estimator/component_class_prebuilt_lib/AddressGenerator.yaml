@@ -1,0 +1,9 @@
+# component class template for address generator
+
+component_class_name: AddressGenerator
+
+attributes:
+    count_max: 8
+
+actions:
+    - generate

@@ -1,0 +1,8 @@
+component_class_name: register
+
+attributes:
+    bitwidth: 8
+
+actions:
+    - read
+    - write

@@ -1,0 +1,9 @@
+component_class_name: counter
+
+attributes:
+    count_max: 8
+
+actions:
+    - generate
+    - idle
+    - access

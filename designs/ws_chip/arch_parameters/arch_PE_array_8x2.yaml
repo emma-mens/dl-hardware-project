@@ -1,0 +1,64 @@
+# ----------------------------------------------------
+# Architecture Design 0
+# ----------------------------------------------------
+# 8x2 PE array
+# 300B IFmapGLB
+# 300B PsumGLB
+# 50B  WeightsGLB
+
+# ----------------------------------------------------
+# FIXED SETUP, DON'T CHANGE
+# ----------------------------------------------------  
+# >> array
+  
+PE_array:
+    - 8 #row
+    - 2 #col
+# >> GLBs
+width:
+    WeightsGLB: 2
+    IFmapGLB: 2
+    PsumGLB: 2
+
+depth:
+    WeightsGLB: 50
+    IFmapGLB: 50
+    PsumGLB: 150
+    
+data_width:
+    WeightsGLB: 8
+    IFmapGLB: 8
+    PsumGLB: 8
+    
+nbanks:
+    WeightsGLB: 1
+    IFmapGLB: 1
+    PsumGLB: 1
+
+nports:
+    WeightsGLB: 2
+    IFmapGLB: 2
+    PsumGLB: 2
+    
+port_type:
+    WeightsGLB: 
+        - rd
+        - wr
+    IFmapGLB:
+        - rd
+        - wr
+    PsumGLB:
+        - rd
+        - wr
+        
+# >> PE
+PE:
+    wsp_depth: 1
+    wsp_width: 1
+    wsp_data_width: 8
+    wsp_nbanks: 1
+    wsp_nports: 2
+    wsp_port_type: 
+        - rd
+        - wr
+    mac_latency: 3

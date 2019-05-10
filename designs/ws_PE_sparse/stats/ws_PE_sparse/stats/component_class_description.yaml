@@ -1,0 +1,100 @@
+
+# ==================================================
+#	 component class description 
+# ==================================================
+MAC:
+  attributes:
+    data_width: 8
+    pipeline_stage: 1
+  sub_component_classes:
+    lm_0_drain_chn:
+      attributes:
+        depth: 2
+        width: 16
+      base_class_name: channel
+WeightsSP:
+  actions:
+    buffer_access:
+      arguments:
+      - lm0_ndrain
+      - lm0_nfill
+      - lm0_nupdate
+      - lm0_nrepeated_data_fill
+      - lm0_nrepeated_data_update
+      - lm0_nrepeated_drain
+      - lm0_nforwarded_drain
+      - lm0_ngated_drain
+      subcomponent_class_actions:
+        LM0_nnsimLogicalManager:
+          action_name: generate
+          arguments:
+          - lm0_ndrain
+          - lm0_ngated_drain
+          - lm0_nfill
+          - lm0_nupdate
+          - lm0_nrepeated_data_update
+          - lm0_nrepeated_data_fill
+          repeat:
+            sum:
+            - lm0_ndrain
+            - lm0_ngated_drain
+            - lm0_nfill
+            - lm0_nupdate
+            - lm0_nrepeated_data_update
+            - lm0_nrepeated_data_fill
+        SRAM:
+          action_name: RAM_access
+          arguments:
+          - sum:
+            - lm0_ndrain
+          - sum:
+            - lm0_nfill
+            - lm0_nupdate
+          - sum:
+            - lm0_nrepeated_drain
+          - sum:
+            - lm0_nrepeated_data_fill
+            - lm0_nrepeated_data_update
+          repeat: 1
+        lm_0_drain_chn:
+          action_name: access
+          repeat:
+            sum:
+            - lm0_ndrain
+            - lm0_nrepeated_drain
+        lm_0_fill_chn:
+          action_name: access
+          repeat: lm0_nfill
+    idle:
+      subcomponent_class_actions:
+        SRAM:
+          action_name: idle
+          repeat: 1
+  attributes:
+    data_width: 8
+    depth: 1
+    nbanks: 1
+    nports: 2
+    width: 1
+  sub_component_classes:
+    LM0_nnsimLogicalManager:
+      attributes:
+        count_max: depth
+      base_class_name: counter
+    SRAM:
+      attributes:
+        data_width: 8
+        depth: 1
+        nbanks: 1
+        nports: 2
+        width: 1
+    lm_0_drain_chn:
+      attributes:
+        depth: 2
+        width: 16
+      base_class_name: channel
+    lm_0_fill_chn:
+      attributes:
+        depth: 2
+        width: 16
+      base_class_name: channel

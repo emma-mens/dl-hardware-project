@@ -1,0 +1,908 @@
+
+# ==================================================
+#	 access counts 
+# ==================================================
+PE[0][0]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[0][1]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[0][2]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[0][3]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[1][0]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[1][1]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[1][2]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[1][3]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[2][0]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[2][1]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[2][2]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[2][3]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[3][0]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[3][1]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[3][2]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+PE[3][3]:
+  mac:
+    idle:
+      count: 138
+    mac_gated:
+      count: 0
+    mac_normal:
+      count: 1
+    mac_reuse:
+      count: 3
+  weight_sp:
+    buffer_access:
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 1
+        lm0_nforwarded_drain: 1
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 1
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 0
+        lm0_nupdate: 0
+      count: 1
+    - arguments:
+        lm0_ndrain: 0
+        lm0_nfill: 0
+        lm0_nforwarded_drain: 0
+        lm0_ngated_drain: 0
+        lm0_nrepeated_data_fill: 0
+        lm0_nrepeated_data_update: 0
+        lm0_nrepeated_drain: 1
+        lm0_nupdate: 0
+      count: 5
+    idle:
+      count: 67
+ifmapNoC:
+  blocked_transfer:
+    count: 22
+  idle:
+    count: 35
+  repeated_transfer: {}
+  transfer:
+  - arguments: 4
+    count: 16
+ifmap_glb:
+  buffer_access:
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 1
+      lm0_nforwarded_drain: 1
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 1
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 1
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 5
+  - arguments:
+      lm0_ndrain: 1
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 3
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 1
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 1
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 2
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 1
+      lm0_nupdate: 0
+    count: 2
+  idle:
+    count: 63
+psumRdNoC:
+  blocked_transfer:
+    count: 0
+  idle:
+    count: 57
+  repeated_transfer: {}
+  transfer:
+  - arguments: 1
+    count: 16
+psumWrNoC: {}
+psum_glb:
+  buffer_access:
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 1
+      lm0_nforwarded_drain: 1
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 2
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 1
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 1
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 2
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 1
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 1
+    count: 2
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 1
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 2
+  - arguments:
+      lm0_ndrain: 1
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 1
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 1
+      lm0_nupdate: 0
+    count: 1
+  idle:
+    count: 69
+weightsNoC:
+  blocked_transfer:
+    count: 0
+  idle:
+    count: 27
+  repeated_transfer: {}
+  transfer:
+  - arguments: 1
+    count: 46
+weights_glb:
+  buffer_access:
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 1
+      lm0_nforwarded_drain: 1
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 1
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 1
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 1
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 3
+  - arguments:
+      lm0_ndrain: 0
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 1
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 21
+  - arguments:
+      lm0_ndrain: 1
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 1
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 7
+  - arguments:
+      lm0_ndrain: 1
+      lm0_nfill: 0
+      lm0_nforwarded_drain: 0
+      lm0_ngated_drain: 0
+      lm0_nrepeated_data_fill: 0
+      lm0_nrepeated_data_update: 0
+      lm0_nrepeated_drain: 0
+      lm0_nupdate: 0
+    count: 15
+  idle:
+    count: 30

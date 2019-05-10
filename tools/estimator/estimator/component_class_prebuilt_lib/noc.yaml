@@ -1,0 +1,19 @@
+ 
+component_class_name: noc
+
+attributes:  # default attributes of the tool
+    FIFO_depth: 2
+    FIFO_width: 16
+    arbiterType: snoop
+    nRequesters: 1
+    data_width: 16
+    xbar_input: 1
+    xbar_output: 14
+    wire_length: 100
+
+
+actions:
+    - transfer
+    - blocked_transfer
+    - repeated_transfer
+    - idle

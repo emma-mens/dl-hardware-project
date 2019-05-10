@@ -1,0 +1,10 @@
+# related to GLB  <=  TILE
+
+# # of tile filters
+M0: 4
+
+# # of tile input channels
+C0: 4
+
+# size of tile ifmap batch
+N0: 1

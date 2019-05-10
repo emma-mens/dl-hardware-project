@@ -1,0 +1,9 @@
+# component class template for smartbuffer conflict check
+
+component_class_name: conflict_check
+
+attributes:
+    depth: 12
+
+actions:
+    -check

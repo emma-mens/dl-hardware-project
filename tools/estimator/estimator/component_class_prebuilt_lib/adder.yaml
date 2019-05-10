@@ -1,0 +1,11 @@
+# component class template for adder
+
+component_class_name: adder
+
+attributes:
+    bitwidth: 8
+    pipeline_stage: 1
+
+actions:
+    - add_normal
+    - add_gated

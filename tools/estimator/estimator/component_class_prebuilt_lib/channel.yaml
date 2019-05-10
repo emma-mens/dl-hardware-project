@@ -1,0 +1,10 @@
+# component class template for channel
+
+component_class_name: channel
+
+attributes: 
+    width: 16
+    depth: 2
+    
+actions:
+    - access

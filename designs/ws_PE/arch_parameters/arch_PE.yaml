@@ -1,0 +1,10 @@
+PE:
+    wsp_depth: 1           # depth of the weight_scratchpad
+    wsp_width: 1           # width (in terms of # of data) of the scratchpad
+    wsp_data_width: 8      # data width
+    wsp_nbanks: 1          # number of banks in the scratchpad
+    wsp_nports: 2          # number of ports in the scratchpad
+    wsp_port_type:         # what type is each port of the scratchpad
+        - rd
+        - wr
+    mac_latency: 3         # number of cycles a mac takes

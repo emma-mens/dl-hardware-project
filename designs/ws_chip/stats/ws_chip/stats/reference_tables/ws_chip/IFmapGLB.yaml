@@ -1,0 +1,70 @@
+attributes:
+  data_width: 8
+  depth: 50
+  nbanks: 1
+  nports: 2
+  technology: 65nm
+  vendor: '6888'
+  voltage: 1V
+  width: 2
+buffer_access:
+  base_class_actions:
+    SRAM:
+    - arguments:
+      - sum:
+        - lm0_ndrain
+      - sum:
+        - lm0_nfill
+        - lm0_nupdate
+      - sum:
+        - lm0_nrepeated_drain
+      - sum:
+        - lm0_nrepeated_data_fill
+        - lm0_nrepeated_data_update
+      attributes:
+        data_width: 8
+        depth: 50
+        nbanks: 1
+        nports: 2
+        width: 2
+      base_action_name: RAM_access
+      repeat: 1
+    channel:
+    - attributes:
+        depth: 2
+        width: 16
+      base_action_name: access
+      numerical_energy: 0
+      repeat:
+        sum:
+        - lm0_ndrain
+        - lm0_nrepeated_drain
+    - attributes:
+        depth: 2
+        width: 16
+      base_action_name: access
+      numerical_energy: 0
+      repeat: lm0_nfill
+    counter:
+    - arguments:
+      - lm0_ndrain
+      - lm0_ngated_drain
+      - lm0_nfill
+      - lm0_nupdate
+      - lm0_nrepeated_data_update
+      - lm0_nrepeated_data_fill
+      attributes:
+        count_max: 50
+      base_action_name: generate
+      repeat:
+        sum:
+        - lm0_ndrain
+        - lm0_ngated_drain
+        - lm0_nfill
+        - lm0_nupdate
+        - lm0_nrepeated_data_update
+        - lm0_nrepeated_data_fill
+  numerical_energy: 0
+idle:
+  base_class_actions: {}
+  numerical_energy: 0
