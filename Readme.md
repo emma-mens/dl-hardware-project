@@ -3,10 +3,14 @@ This is an implementation provided by the course staff of MIT 6.888 (Hardware Ar
 
 We noticed some use cases that weren't able to run as stated below:
 1. The simulator for single PE couldn't handle 1x1 kernel for convolution so we had to use 2x2 and scale our results accordingly.
-2. For the 4x4 PE array, the simulator hang after the forth tile.
+2. For the 4x4 PE array, the simulator hangs after the fourth tile for a 2x2 ifmap.
 3. The output failed to match the expected values when the input/weight values were greater than one and the biases not carefully constructed to keep the outputs small.
 
-# ---- ORIGINAL README -----
+Our custom layer shapes are in workloads/layer_shapes and are labeled gcnn_\*. Our ifmap, weights, biases are all in workloads under names shape_gcnn\*.
+
+We also have our report and poster in the repository as well. 
+
+# ---- ORIGINAL README FOR LAB 4-----
 
 # DNN Architecture Evaluation Infrastructure
 
